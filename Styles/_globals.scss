@@ -1,0 +1,47 @@
+* { box-sizing: border-box;}
+
+html { font-size: map-get($fonts-size, html);
+}
+
+body {
+  font-family: map-get($font-family, body );
+  font-size: map-get($fonts-size,body )#{rem};
+  color: map-get($color-elements, body);
+    
+}
+
+a {
+  color: map-get($color-elements, links );
+  text-decoration: none;
+}
+
+h1 { 
+font-size: 4.4rem;
+
+}
+
+p { font-size: 1.4rem;
+}
+
+input {
+  
+  & [type="text"] {
+
+    padding: 10px;
+  }
+
+  &:focus { 
+    outline: none;
+  
+  }
+
+}
+
+h2 {
+
+  color: #1F3F68;
+
+}
+
+img { display: block;}
+

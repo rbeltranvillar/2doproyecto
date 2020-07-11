@@ -1,0 +1,68 @@
+.article-format2 {
+
+  h2 { 
+font-size: 2.2rem;
+line-height: 1.6;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+p{ 
+
+  margin-bottom: 30px;
+
+}
+
+
+&__text{
+
+  &__bottom { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+  
+    h3 { 
+      margin-bottom: 10px;
+      font-weight: bold;
+      
+    }
+    ul {
+      display: flex;
+  
+  
+    }
+  
+    li { 
+      margin-left: 20px;
+    }
+  
+  
+  
+  
+    &__left{
+      font-size: 1.4rem;
+  
+    }
+  
+    &__right {}
+  
+  }
+  
+  
+  
+  &__right { 
+  
+  width: percentage(7/12);
+  padding-left: 10px;
+  
+  
+  }
+
+
+}
+
+
+}
+

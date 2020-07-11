@@ -1,0 +1,55 @@
+@import 'variables';
+@import 'reset';
+@import 'globals';
+@import 'layout';
+@import 'responsive';
+@import 'nav';
+@import 'banner';
+@import 'search';
+@import 'article-format1';
+@import 'article-format2';
+
+
+.popular {
+  border-bottom: 1px solid #000;
+  padding-bottom: 20px;
+  margin-bottom: 60px;
+
+  
+  &__title{ 
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+
+  &__all { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+
+  }
+
+  &__link {
+    text-align: right;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 40px;
+
+    a {
+
+      color: #356ead;
+    }
+
+
+
+  }
+}
+
+
+
+
+
+
+
+
