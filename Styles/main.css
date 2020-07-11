@@ -214,6 +214,13 @@ img {
   color: #1f3f68;
 }
 
+.allarticles__link {
+  font-size: 2.2rem;
+  line-height: 1.6;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
 .article-format1 {
   margin-bottom: 20px;
   display: -webkit-box;
