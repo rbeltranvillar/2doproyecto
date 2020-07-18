@@ -47,6 +47,8 @@
     &__right {}
 
   }
+  
+  
 
  }
 
@@ -57,6 +59,22 @@
 
 
  }
+
+ @include breakpoints (md) {
+   h2 {font-size:2.8rem ;}
+
+   &__left { 
+     width: percentage(6/12);
+
+     &__right { 
+      width: percentage(6/12);
+    }
+   }
+ }
+
+ @include breakpoints (sm) {
+  h2 {font-size:2.8rem ;}
+}
 
 
 
@@ -69,5 +87,6 @@
   p {margin-bottom: 24px;
   line-height: 2;
   }
+
 
 }

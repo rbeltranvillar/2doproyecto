@@ -1,0 +1,26 @@
+@mixin breakpoint ($breakpoints) {
+
+  @if ($breakpoints == lg ) {
+    @media (max-width: map-get($breakpoints,$lg ) )  {
+      @content;
+     }
+      
+    }
+
+    @if ($breakpoints == md) {
+      @media (max-width: map-get($breakpoints,$md )) {
+        @content;
+      }
+      
+    }
+
+    @if ( $breakpoints == xs ) {  
+      @media (max-width: map-get($breakpoints,$xs )){
+        @content;
+      }
+    }
+
+
+
+   }
+  

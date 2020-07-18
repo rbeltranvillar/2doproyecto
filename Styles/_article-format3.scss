@@ -1,0 +1,64 @@
+
+.article-format3 {
+
+  display: flex;
+  margin-bottom: 20px;
+
+  h2 {  
+
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__text { padding-left: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  &__bottom {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    
+    
+  
+    h3 { 
+      margin-bottom: 10px;
+      font-weight: bold;
+      
+    }
+    ul {
+      display: flex;
+  
+  
+    }
+  
+    li { 
+      margin-left: 20px;
+    }
+  
+  
+  
+  
+    &__left{
+      font-size: 1.4rem;
+  
+    }
+  
+  
+  
+  }
+  
+  
+  
+    }
+
+ 
+
+}
+
+

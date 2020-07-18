@@ -1,9 +1,22 @@
 .nav {
   font-size: 2rem;
   font-weight: bold;
+
+
   ul{display: flex;}
+
   li {margin-left: 55px;}
-  a {&:hover { text-decoration: underline;}
+
+  a {&:hover { 
+    text-decoration: underline;}
   
   }
+
+  @include breakpoint (sm) {
+
+    font-size: 1.4rem;
+
+  }
+
+
 }
