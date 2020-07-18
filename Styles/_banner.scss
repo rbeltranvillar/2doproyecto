@@ -37,11 +37,9 @@
 
 }
 
-@include breakpoints (sm) {
+@include breakpoint (sm) {
   h1 { font-size: 2.4rem ;}
   p { font-size: 1.3rem ;}
-  
-
-}
+  }
  
  }
